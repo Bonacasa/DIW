@@ -41,7 +41,8 @@ div{
 Si queremos fijar el tamaño de todo (caja original, padding y borde), hacemos
 
 box-sizing: border-box;
-https://www.w3schools.com/css/css3_box-sizing.asp https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
+https://www.w3schools.com/css/css3_box-sizing.asp
+https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
 
 ```
 
