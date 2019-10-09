@@ -5,7 +5,7 @@ section {
   section article {
     background-color: #FFF;
     color: lightblue;
-    padding: 1rem; }
+    padding: 1em; }
 
 #colums-inline-block article {
   display: inline-block;
