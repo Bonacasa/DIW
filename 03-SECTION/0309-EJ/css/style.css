@@ -4,9 +4,16 @@ section {
   margin: 2rem; }
   section article {
     background-color: #FFF;
-    color: lightblue;
+    color: black;
     padding: 1em; }
 
-#colums-inline-block article {
-  display: inline-block;
-  width: 22%; }
+#colums-inline-block {
+  font-size: 0; }
+  #colums-inline-block article {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    height: 30rem;
+    font-size: 1rem; }
+    #colums-inline-block article:not(:last-child) {
+      margin-right: 4%; }

@@ -1,0 +1,11 @@
+div {
+  background-color: #9a9a9a;
+  color: white;
+  padding: 1em;
+  -webkit-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 2em;
+  column-gap: 2em;
+  -webkit-column-rule: 2px dotted white;
+  column-rule: 2px dotted white;
+  text-align: justify; }

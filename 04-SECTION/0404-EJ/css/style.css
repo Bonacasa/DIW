@@ -1,0 +1,36 @@
+section {
+  background-color: deepskyblue;
+  padding: 2rem;
+  margin: 2rem; }
+  section article {
+    background-color: #FFF;
+    color: deepskyblue;
+    padding: 1em; }
+
+#columns-inline-block {
+  font-size: 0; }
+  #columns-inline-block article {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    height: 30rem;
+    font-size: 1rem; }
+    #columns-inline-block article:not(:last-child) {
+      margin-right: 4%; }
+
+#columns-float {
+  overflow: hidden; }
+  #columns-float article {
+    float: left;
+    width: 22%;
+    height: 30rem; }
+    #columns-float article:not(:last-child) {
+      margin-right: 4%; }
+
+#columns-table {
+  display: table;
+  table-layout: fixed;
+  border-spacing: 2rem 0; }
+  #columns-table article {
+    display: table-cell;
+    width: 25%; }

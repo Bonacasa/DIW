@@ -1,0 +1,9 @@
+div{
+    background-color: lighten($color: gray, $amount: 10%);
+    color: white;
+    padding: 1em;
+    column-count: 4;
+    column-gap: 2em;
+    column-rule: 2px dotted white;
+    text-align: justify;
+}
